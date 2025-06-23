@@ -1,7 +1,7 @@
 ✅ iOS App using Socket to update crypto real time data from Bitmex and using SwiftUI to update UI smoothly.
 
 
-**License**
+License
 MIT License
 
 Copyright (c) 2025 ericdo1202 (Duoc Do)
