@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  TradingApp
+//
+//  Created by Duoc Do on 2/6/25.
+//
+"order_book"="Sổ lệnh";
+"recent_trades"="Giao dịch gần đây";
+"price"="Giá (USD)";
+"qty"="Số lượng";
+"total"="Tổng";
+"time"="Thời gian";
+"loading"="Đang tải...";

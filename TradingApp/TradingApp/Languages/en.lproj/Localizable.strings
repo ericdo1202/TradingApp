@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  TradingApp
+//
+//  Created by Duoc Do on 2/6/25.
+//
+"order_book"="Order Book";
+"recent_trades"="Recent Trades";
+"price"="Price (USD)";
+"qty"="Qty";
+"total"="Total";
+"time"="Time";
+"loading"="Loading...";

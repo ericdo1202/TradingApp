@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946EBA6C2DEDA75F0076B7CA /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 946EBA6B2DEDA75F0076B7CA /* Starscream */; };
+		947E8A612DEEF74700C10343 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 947E8A602DEEF74700C10343 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94556B3B2DED4F2000A5BE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94556B212DED4F1E00A5BE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94556B282DED4F1E00A5BE7B;
+			remoteInfo = TradingApp;
+		};
+		94556B452DED4F2000A5BE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94556B212DED4F1E00A5BE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94556B282DED4F1E00A5BE7B;
+			remoteInfo = TradingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94556B292DED4F1E00A5BE7B /* TradingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94556B3A2DED4F2000A5BE7B /* TradingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94556B442DED4F2000A5BE7B /* TradingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		941D99632DEEFEE200DEB9B1 /* Exceptions for "TradingApp" folder in "TradingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94556B282DED4F1E00A5BE7B /* TradingApp */;
+		};
+		941D99642DEEFEE200DEB9B1 /* Exceptions for "TradingApp" folder in "TradingAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Api/Api.swift,
+				AppConfig.swift,
+				Enums/ItemSide.swift,
+				"Extensions/Double+Extension.swift",
+				"Extensions/Int+Extension.swift",
+				Repositories/TradeRepo.swift,
+				Screens/TradingView/OrderBook/OrderBookItem.swift,
+				Screens/TradingView/OrderBook/OrderBookViewModel.swift,
+				Screens/TradingView/RecentTrade/RecentTradeViewModel.swift,
+				Screens/TradingView/RecentTrade/TradeItem.swift,
+				Services/WebSocket/WebSocketConnection.swift,
+				Services/WebSocket/WebSocketHandleData.swift,
+				Services/WebSocket/WebSocketManager.swift,
+				Services/WebSocket/WebSocketSubcribe.swift,
+			);
+			target = 94556B392DED4F2000A5BE7B /* TradingAppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		941D99322DEEFEE200DEB9B1 /* TradingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				941D99632DEEFEE200DEB9B1 /* Exceptions for "TradingApp" folder in "TradingApp" target */,
+				941D99642DEEFEE200DEB9B1 /* Exceptions for "TradingApp" folder in "TradingAppTests" target */,
+			);
+			path = TradingApp;
+			sourceTree = "<group>";
+		};
+		94556B3D2DED4F2000A5BE7B /* TradingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradingAppTests;
+			sourceTree = "<group>";
+		};
+		94556B472DED4F2000A5BE7B /* TradingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TradingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94556B262DED4F1E00A5BE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EBA6C2DEDA75F0076B7CA /* Starscream in Frameworks */,
+				947E8A612DEEF74700C10343 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B372DED4F2000A5BE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B412DED4F2000A5BE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94556B202DED4F1E00A5BE7B = {
+			isa = PBXGroup;
+			children = (
+				941D99322DEEFEE200DEB9B1 /* TradingApp */,
+				94556B3D2DED4F2000A5BE7B /* TradingAppTests */,
+				94556B472DED4F2000A5BE7B /* TradingAppUITests */,
+				94556B2A2DED4F1E00A5BE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94556B2A2DED4F1E00A5BE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94556B292DED4F1E00A5BE7B /* TradingApp.app */,
+				94556B3A2DED4F2000A5BE7B /* TradingAppTests.xctest */,
+				94556B442DED4F2000A5BE7B /* TradingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94556B282DED4F1E00A5BE7B /* TradingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94556B4E2DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingApp" */;
+			buildPhases = (
+				94556B252DED4F1E00A5BE7B /* Sources */,
+				94556B262DED4F1E00A5BE7B /* Frameworks */,
+				94556B272DED4F1E00A5BE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				941D99322DEEFEE200DEB9B1 /* TradingApp */,
+			);
+			name = TradingApp;
+			packageProductDependencies = (
+				946EBA6B2DEDA75F0076B7CA /* Starscream */,
+				947E8A602DEEF74700C10343 /* Alamofire */,
+			);
+			productName = TradingApp;
+			productReference = 94556B292DED4F1E00A5BE7B /* TradingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94556B392DED4F2000A5BE7B /* TradingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94556B512DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingAppTests" */;
+			buildPhases = (
+				94556B362DED4F2000A5BE7B /* Sources */,
+				94556B372DED4F2000A5BE7B /* Frameworks */,
+				94556B382DED4F2000A5BE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94556B3C2DED4F2000A5BE7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94556B3D2DED4F2000A5BE7B /* TradingAppTests */,
+			);
+			name = TradingAppTests;
+			packageProductDependencies = (
+			);
+			productName = TradingAppTests;
+			productReference = 94556B3A2DED4F2000A5BE7B /* TradingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94556B432DED4F2000A5BE7B /* TradingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94556B542DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingAppUITests" */;
+			buildPhases = (
+				94556B402DED4F2000A5BE7B /* Sources */,
+				94556B412DED4F2000A5BE7B /* Frameworks */,
+				94556B422DED4F2000A5BE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94556B462DED4F2000A5BE7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94556B472DED4F2000A5BE7B /* TradingAppUITests */,
+			);
+			name = TradingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TradingAppUITests;
+			productReference = 94556B442DED4F2000A5BE7B /* TradingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94556B212DED4F1E00A5BE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					94556B282DED4F1E00A5BE7B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					94556B392DED4F2000A5BE7B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 94556B282DED4F1E00A5BE7B;
+					};
+					94556B432DED4F2000A5BE7B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 94556B282DED4F1E00A5BE7B;
+					};
+				};
+			};
+			buildConfigurationList = 94556B242DED4F1E00A5BE7B /* Build configuration list for PBXProject "TradingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+				ko,
+			);
+			mainGroup = 94556B202DED4F1E00A5BE7B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				946EBA6A2DEDA75F0076B7CA /* XCRemoteSwiftPackageReference "Starscream" */,
+				947E8A5F2DEEF74700C10343 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 94556B2A2DED4F1E00A5BE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94556B282DED4F1E00A5BE7B /* TradingApp */,
+				94556B392DED4F2000A5BE7B /* TradingAppTests */,
+				94556B432DED4F2000A5BE7B /* TradingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94556B272DED4F1E00A5BE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B382DED4F2000A5BE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B422DED4F2000A5BE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94556B252DED4F1E00A5BE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B362DED4F2000A5BE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94556B402DED4F2000A5BE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94556B3C2DED4F2000A5BE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94556B282DED4F1E00A5BE7B /* TradingApp */;
+			targetProxy = 94556B3B2DED4F2000A5BE7B /* PBXContainerItemProxy */;
+		};
+		94556B462DED4F2000A5BE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94556B282DED4F1E00A5BE7B /* TradingApp */;
+			targetProxy = 94556B452DED4F2000A5BE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94556B4C2DED4F2000A5BE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94556B4D2DED4F2000A5BE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		94556B4F2DED4F2000A5BE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TradingApp/TradingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LRM39576V7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TradingApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		94556B502DED4F2000A5BE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TradingApp/TradingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TradingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LRM39576V7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TradingApp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		94556B522DED4F2000A5BE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRM39576V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradingApp";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		94556B532DED4F2000A5BE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRM39576V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TradingApp";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		94556B552DED4F2000A5BE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRM39576V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = TradingApp;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		94556B562DED4F2000A5BE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRM39576V7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duocdo.TradingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = TradingApp;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94556B242DED4F1E00A5BE7B /* Build configuration list for PBXProject "TradingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94556B4C2DED4F2000A5BE7B /* Debug */,
+				94556B4D2DED4F2000A5BE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94556B4E2DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94556B4F2DED4F2000A5BE7B /* Debug */,
+				94556B502DED4F2000A5BE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94556B512DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94556B522DED4F2000A5BE7B /* Debug */,
+				94556B532DED4F2000A5BE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94556B542DED4F2000A5BE7B /* Build configuration list for PBXNativeTarget "TradingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94556B552DED4F2000A5BE7B /* Debug */,
+				94556B562DED4F2000A5BE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		946EBA6A2DEDA75F0076B7CA /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+		947E8A5F2DEEF74700C10343 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		946EBA6B2DEDA75F0076B7CA /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 946EBA6A2DEDA75F0076B7CA /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		947E8A602DEEF74700C10343 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 947E8A5F2DEEF74700C10343 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94556B212DED4F1E00A5BE7B /* Project object */;
+}
